@@ -34,7 +34,7 @@ export default function ContentItem({ isEven = false, item, onFocusCb = () => {}
   });
 
   const evenStyle = isEven ? 'bg-indigo-300' : 'bg-indigo-500';
-  const focusedStyle = focused ? 'border-gray-300' : '';
+  const focusedStyle = focused ? 'border-white' : '';
 
   return (
     <div ref={ref}>
